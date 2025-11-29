@@ -1,5 +1,5 @@
 # python-practice--question
-que1  
+que1 
 Problem Submissions Leaderboard Discussions Editorial Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. 
 You are given scores.Store them in a list and find the score of the runner-up. 
 Input Format The first line contains . 
@@ -14,3 +14,5 @@ Sample Output 0 :5
   list mein kiya taki remove method chal jaye aur jo max element hai wo remove ho jaye phir uske bad bhi, 
   output nahi ayi kyuki usme repeted max element the fhir mene setb ka use karke duplictae value fremove ,
   ki uske bad max element remove hua aur fir se max element print karwaya jis se agya second highest score, 
+  
+Question 2 : make a game of random guess 
