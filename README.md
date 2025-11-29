@@ -10,4 +10,7 @@ Sample Output 0 :5
  
  my thinking :
  pehle mene isme constraints lagaye uske bad mein directly arr pe remove laga raha tha mene dhyan nahi,
-  diya ki vo list mein chnage nahi wo map mein tha jis ke karan error ara tha phir uske bad mene usko , list mein kiya taki remove method chal jaye aur jo max element hai wo remove ho jaye phir uske bad bhi, output nahi ayi kyuki usme repeted max element the fhir mene setb ka use karke duplictae value fremove ,ki uske bad max element remove hua aur fir se max element print karwaya jis se agya second highest score, 
+  diya ki vo list mein chnage nahi wo map mein tha jis ke karan error ara tha phir uske bad mene usko , 
+  list mein kiya taki remove method chal jaye aur jo max element hai wo remove ho jaye phir uske bad bhi, 
+  output nahi ayi kyuki usme repeted max element the fhir mene setb ka use karke duplictae value fremove ,
+  ki uske bad max element remove hua aur fir se max element print karwaya jis se agya second highest score, 
