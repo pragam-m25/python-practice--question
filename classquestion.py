@@ -81,3 +81,4 @@ for ch in w1 :
     if ch in w2 and ch not in  common:
         common.append(ch)
 print(common)
+

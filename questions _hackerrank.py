@@ -25,3 +25,18 @@ while(user_input != num):
 
 print(f"congratulation your guess is correct number {num},you take {guesses} attempt ")
 
+#swap case question 
+def swap_case(s):
+    d=[]
+    if len(s)>0 and len(s)<=1000  :
+        for ch in s :
+            if ch.isalpha()  :
+                if  ch.isupper():
+                    ch=ch.lower()
+                    d.append(ch)
+                elif  ch.islower():
+                    ch=ch.upper()
+                    d.append(ch)
+            else:
+                d.append(ch)
+    return "".join(d)
