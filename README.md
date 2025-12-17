@@ -40,7 +40,7 @@ A single line containing a string .
 
 Constraints
 
-
+len(s)>0 and len(s)<=1000 
 Sample Input 0
 
 HackerRank.com presents "Pythonist 2".
