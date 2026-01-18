@@ -40,3 +40,36 @@ def swap_case(s):
             else:
                 d.append(ch)
     return "".join(d)
+
+
+# question 18jan 2026 
+# Question 1 solution 
+def mutate_string(string, position, character):
+   string=string[:position]+character+string[position+1:]
+   return string
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+    print(s_new)
+
+#question 2 solution
+#
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+
+def print_full_name(first, last):
+    # Write your code here
+    if len(first) and len(last) <=10:
+        print(f"Hello {first} {last}! You just delved into python.")
+
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
