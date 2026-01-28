@@ -73,3 +73,23 @@ if __name__ == '__main__':
     first_name = input()
     last_name = input()
     print_full_name(first_name, last_name)
+
+
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    def avg_return():
+        total=0
+        for j in student_marks[query_name]:
+            if j >=0 and j <=100:
+                if len(scores)==3:
+                    if n>=2 and n<=10 :
+                        total+=j
+                        avg = total/len(scores)
+        return avg
+    print(f"{avg_return():.2f}")
